@@ -98,7 +98,7 @@ public class CampaignTest extends BaseClass {
 		//sutil.waitForVisiblityofElement(driver);
 		String msg =toastMsg.getText();
 		Thread.sleep(5000);
-		
+		Thread.sleep(1000);
 		Assert.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is not created");
 		
 	}
