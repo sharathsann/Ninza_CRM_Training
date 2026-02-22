@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="products.ProductsTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="productDelete"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- products.ProductsTest -->
+      <class name="Leads.LeadsCreation">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="deleteLeads"/>
+        </methods>
+      </class> <!-- Leads.LeadsCreation -->
+      <class name="opportunities.OpportunitiesTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="OpportunitiesDelete"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- opportunities.OpportunitiesTest -->
+      <class name="purchaseOrder.PurchaseOrderTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="PurchaseOrderDelete"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- purchaseOrder.PurchaseOrderTest -->
+      <class name="quotes.QuotesTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="QuoteDelete"/>
+        </methods>
+      </class> <!-- quotes.QuotesTest -->
+      <class name="DeleteCamapaignModule.DeteleCampaignTc002">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="deleteCampaign"/>
+        </methods>
+      </class> <!-- DeleteCamapaignModule.DeteleCampaignTc002 -->
+      <class name="salesOrder.SalesOrderTest">
+        <methods>
+          <include name="SalesOrderDelete"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- salesOrder.SalesOrderTest -->
+      <class name="Contacts.ContactCreation">
+        <methods>
+          <include name="deleteContact"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Contacts.ContactCreation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
