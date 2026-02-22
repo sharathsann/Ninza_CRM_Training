@@ -86,7 +86,6 @@ public class CampaignTest extends BaseClass {
 		Reporter.log("true" + true, true);
 		cp.getCreateCampaignSubmitBtn().click();
 		Reporter.log("true"+true);
-		Reporter.log("true"+true);
 		}
 		catch( Exception e)
 		{
