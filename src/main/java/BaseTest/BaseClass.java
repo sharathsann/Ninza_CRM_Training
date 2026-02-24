@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -48,9 +49,20 @@ public class BaseClass {
         System.out.println("establish database connectivity");
 
         String BROWSER = plib.togetDataFromPropertiesFile("Browser");
+        // Read headless flag from Maven
+        String headless = System.getProperty("headless");
 
         if (BROWSER.equalsIgnoreCase("Edge")) {
-            driver = new EdgeDriver();
+        	 EdgeOptions options = new EdgeOptions();
+
+             if ("true".equalsIgnoreCase(headless)) {
+                 options.addArguments("--headless=new");
+                 options.addArguments("--disable-gpu");
+                 options.addArguments("--window-size=1920,1080");
+             }
+
+            
+            driver = new EdgeDriver(options);
         }
         else if (BROWSER.equalsIgnoreCase("Chrome")) {
             driver = new ChromeDriver();
