@@ -296,5 +296,22 @@ public class SeleniumUtility {
 		return dst.getAbsolutePath(); //For extent Reports 
 	}
 	
+	public void safeClick(WebDriver driver, WebElement element) {
+
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.elementToBeClickable(element));
+
+	    try {
+	        ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+
+	        element.click();
+	    } 
+	    catch (Exception e) {
+	        ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].click();", element);
+	    }
+	}
+	
 
 }
