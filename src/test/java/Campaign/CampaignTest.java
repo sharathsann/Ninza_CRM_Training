@@ -60,10 +60,9 @@ public class CampaignTest extends BaseClass {
 		try {
 		HomePage hp= new HomePage(driver);
 		CampaignPage cp=new CampaignPage(driver);
-		Thread.sleep(3000);
-		WebElement button = hp.getCreateCampaign();
-		Thread.sleep(3000);
-		button.click();
+		SeleniumUtility sUtil =new SeleniumUtility();
+		sUtil.safeClick(driver,hp.getCreateCampaign() );
+		
 		
 		Reporter.log("readdata executed"+CAMPAIGNNAME,true);
 		
