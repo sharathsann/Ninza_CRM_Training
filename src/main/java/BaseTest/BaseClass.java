@@ -2,14 +2,17 @@ package BaseTest;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
@@ -50,25 +53,29 @@ public class BaseClass {
 
         String BROWSER = plib.togetDataFromPropertiesFile("Browser");
         // Read headless flag from Maven
-        String headless = System.getProperty("headless");
+        String headless = System.getProperty("headless");//only this one is fine?
+        
+        		
 
         if (BROWSER.equalsIgnoreCase("Edge")) {
-        	 EdgeOptions options = new EdgeOptions();
+        	//ChromeOptions options = new ChromeOptions();
 
-             if ("true".equalsIgnoreCase(headless)) {
-                 options.addArguments("--headless=new");
-                 options.addArguments("--disable-gpu");
-                 options.addArguments("--window-size=1920,1080");
-             }
+           
+        	
 
             
-            driver = new EdgeDriver(options);
-        }
-        else if (BROWSER.equalsIgnoreCase("Chrome")) {
-            driver = new ChromeDriver();
+            driver = new EdgeDriver();
         }
         else if (BROWSER.equalsIgnoreCase("Firefox")) {
             driver = new FirefoxDriver();
+        }
+        else if (BROWSER.equalsIgnoreCase("Chrome")) {
+        	ChromeOptions options = new ChromeOptions();
+        	HashMap<String, Object> prefs = new HashMap<>();
+            prefs.put("profile.password_manager_leak_detection", false);
+            prefs.put("credentials_enable_service", false);
+            options.setExperimentalOption("prefs", prefs);
+            driver = new ChromeDriver(options);
         }
         else {
             throw new RuntimeException("Invalid Browser Name");
@@ -79,7 +86,7 @@ public class BaseClass {
         sUtil.maximizeWindow(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-
+   
     // ✅ Runs before each test method
     @BeforeMethod
     public void login() throws IOException {

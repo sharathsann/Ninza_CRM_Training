@@ -1,0 +1,1188 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>NinzaCRM Test Results</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">CRM Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 24, 2026 06:04:09 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">toCreateCampaignWithExpectedDateTest</p>
+            <p class="text-sm">
+              <span>6:04:30 pm</span> / <span>00:00:08:509</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">toCreateCampaignWithExpectedDateTest</h5>
+<span class='badge badge-success'>02.24.2026 6:04:30 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:39 pm</span>
+<span class='badge badge-default'>00:00:08:509</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+                <a href="data:image/png;base64,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" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+          
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:30 pm</td>
+        <td>
+          ====toCreateCampaignWithExpectedDateTestExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:04:39 pm</td>
+        <td>
+          ====toCreateCampaignWithExpectedDateTestExecution FAILED====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">fillCreateContactDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">fillCreateContactDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====fillCreateContactDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====fillCreateContactDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">fillCreateContactDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">fillCreateContactDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====fillCreateContactDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====fillCreateContactDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OpportunitiesFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">OpportunitiesFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====OpportunitiesFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====OpportunitiesFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">productFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====productFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====productFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">quoteFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">quoteFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====quoteFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====quoteFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PurchaseOrderFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">PurchaseOrderFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SalesOrderFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">SalesOrderFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====SalesOrderFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====SalesOrderFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PurchaseOrderFillDetails</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">PurchaseOrderFillDetails</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderFillDetailsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderFillDetailsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createUser</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">createUser</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====createUserExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====createUserExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteUser</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">deleteUser</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteUserExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteUserExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">InvoiceOrderDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">InvoiceOrderDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====InvoiceOrderDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====InvoiceOrderDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SalesOrderDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">SalesOrderDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====SalesOrderDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====SalesOrderDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PurchaseOrderDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">PurchaseOrderDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====PurchaseOrderDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">QuoteDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">QuoteDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====QuoteDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====QuoteDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">productDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====productDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====productDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OpportunitiesDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">OpportunitiesDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====OpportunitiesDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====OpportunitiesDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteLeads</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">deleteLeads</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteLeadsExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteLeadsExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteContact</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:006</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">deleteContact</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteContactExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====deleteContactExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">campaignDelete</p>
+            <p class="text-sm">
+              <span>6:04:49 pm</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">campaignDelete</h5>
+<span class='badge badge-success'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-danger'>02.24.2026 6:04:49 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====campaignDeleteExecution STARTED====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:04:49 pm</td>
+        <td>
+          ====campaignDeleteExecution Skipped====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 24, 2026 06:04:09 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 24, 2026 06:04:49 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>1</b> tests failed,
+<b>19</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> events failed,
+<b data-tooltip='%'>39</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"toCreateCampaignWithExpectedDateTest":8.509,"fillCreateContactDetails":0.001,"fillCreateContactDetails":0.001,"OpportunitiesFillDetails":0.001,"productFillDetails":0.001,"quoteFillDetails":0.001,"PurchaseOrderFillDetails":0.001,"SalesOrderFillDetails":0,"PurchaseOrderFillDetails":0.002,"createUser":0.001,"deleteUser":0.001,"InvoiceOrderDelete":0.001,"SalesOrderDelete":0.001,"PurchaseOrderDelete":0.001,"QuoteDelete":0.001,"productDelete":0.002,"OpportunitiesDelete":0.001,"deleteLeads":0.001,"deleteContact":0.006,"campaignDelete":0.002
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 10</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 19,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 19,
+infoEvents: 20
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
