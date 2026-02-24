@@ -4,6 +4,13 @@
   <artifactId>Training</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <!-- ✅ Global UTF-8 Fix (IMPORTANT) -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  
   <dependencies>
   <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -40,8 +47,29 @@
     <scope>compile</scope>
 </dependency>
 
-  
+ 
   </dependencies>
+  
+   <!-- ✅ Build Plugins (Moved Outside Profile) -->
+    <build>
+        <plugins>
+
+            <!-- Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+  
+  
+  
   <profiles>
   <profile>
   <id>regression</id>
@@ -57,6 +85,7 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
+      
 	</plugins>
 	</build> 
 	</profile>
