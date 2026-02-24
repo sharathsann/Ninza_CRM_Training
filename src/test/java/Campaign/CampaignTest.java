@@ -57,10 +57,16 @@ public class CampaignTest extends BaseClass {
 		/*
 		 * clikc and create campaign
 		 */
+		try {
 		HomePage hp= new HomePage(driver);
 		CampaignPage cp=new CampaignPage(driver);
-		hp.getCreateCampaign().click();
+		Thread.sleep(3000);
+		WebElement button = hp.getCreateCampaign();
+		Thread.sleep(3000);
+		button.click();
+		
 		Reporter.log("readdata executed"+CAMPAIGNNAME,true);
+		
 
 		/*
 		 * enter mandatorydetails
@@ -71,13 +77,13 @@ public class CampaignTest extends BaseClass {
 		cp.getTargetTF().sendKeys(TARGETSIZE);
 		cp.getTargetTF().sendKeys(Keys.BACK_SPACE); 
 		
+		
 	    /*CampaignStatus
 	     * TargetAudiance
 	     * Discription
 	     * 
 	     */
-		try
-		{
+		
 		cp.getStatusTF().sendKeys(CampaignStatus);
 		cp.getTargetAudianceTF().sendKeys(TargetAudiance);
 		cp.getDescription().sendKeys(Description);
@@ -88,11 +94,7 @@ public class CampaignTest extends BaseClass {
 		Reporter.log("true" + true, true);
 		cp.getCreateCampaignSubmitBtn().click();
 		Reporter.log("true"+true);
-		}
-		catch( Exception e)
-		{
-			System.out.println(e);
-		}
+		
 		WebElement toastMsg = cp.getToastmsg();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(toastMsg));
@@ -106,6 +108,11 @@ public class CampaignTest extends BaseClass {
 		ast.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is  created");
 		ast.assertAll();
 		Thread.sleep(5000);
+		}
+		catch( Exception e)
+		{
+			e.printStackTrace();
+		}
 		
 	}
 }

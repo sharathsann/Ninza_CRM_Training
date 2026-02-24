@@ -52,6 +52,15 @@
           <include name="login"/>
         </methods>
       </class> <!-- Invoice.InvoiceTest -->
+      <class name="Campaign.CampaignTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="toCreateCampaignWithExpectedDateTest"/>
+        </methods>
+      </class> <!-- Campaign.CampaignTest -->
       <class name="opportunities.OpportunitiesTest">
         <methods>
           <include name="OpportunitiesFillDetails"/>
