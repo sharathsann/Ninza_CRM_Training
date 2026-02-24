@@ -3,11 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng.TestNg1">
+      <class name="Contacts.ContactCreation">
         <methods>
-          <include name="validateMRPRange"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="validateContactPage"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- Testng.TestNg1 -->
+      </class> <!-- Contacts.ContactCreation -->
+      <class name="Campaign.CampaignTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="toCreateCampaignWithExpectedDateTest"/>
+        </methods>
+      </class> <!-- Campaign.CampaignTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

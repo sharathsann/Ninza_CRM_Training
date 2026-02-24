@@ -14,12 +14,14 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import BaseTest.BaseClass;
 import genericUtility.ExcelUtility;
 import genericUtility.JavaUtility;
 import genericUtility.SeleniumUtility;
 import objectRepository.CampaignPage;
+import objectRepository.ContactPage;
 import objectRepository.HomePage;
 @Listeners
 public class CampaignTest extends BaseClass {
@@ -99,7 +101,11 @@ public class CampaignTest extends BaseClass {
 		String msg =toastMsg.getText();
 		Thread.sleep(5000);
 		Thread.sleep(1000);
-		Assert.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is not created");
+		System.out.println(msg);
+		SoftAssert ast=new SoftAssert();
+		ast.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is  created");
+		ast.assertAll();
+		Thread.sleep(5000);
 		
 	}
 }

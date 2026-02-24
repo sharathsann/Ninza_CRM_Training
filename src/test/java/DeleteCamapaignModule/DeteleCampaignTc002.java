@@ -12,11 +12,12 @@ import org.testng.annotations.Test;
 
 import BaseTest.BaseClass;
 import genericUtility.ExcelUtility;
+import objectRepository.GenericPage;
 import objectRepository.HomePage;
 
 public class DeteleCampaignTc002 extends BaseClass
 { 
-	@Test(priority=20,dependsOnGroups = "deleteContact")
+	//@Test(priority=20)
    public void deleteCampaign() throws InterruptedException, EncryptedDocumentException, IOException
    {
 	   HomePage hp=new HomePage(driver);
@@ -48,5 +49,20 @@ public class DeteleCampaignTc002 extends BaseClass
 		{
 			System.out.println("campaign is not deleted");
 		}
+   }
+	@Test(priority=20,dependsOnGroups = "deleteContact")
+		public void campaignDelete() throws EncryptedDocumentException, InterruptedException, IOException
+		  {
+			     GenericPage gp = new GenericPage(driver);
+				 ExcelUtility eUtil = new ExcelUtility();
+				gp.headerModules_selection_campains_to_InvoiceModule("Campaigns");
+				Thread.sleep(2000);
+				gp.generic_FilterDropAndSearch("Search by Campaign Name", "Campaign", 0, 1);
+				Thread.sleep(2000);
+				gp.genericPage_DleteSteps("Campaign", 0, 1);
+				Thread.sleep(5000);
+				
+		  }
+		
 	}
-}
+

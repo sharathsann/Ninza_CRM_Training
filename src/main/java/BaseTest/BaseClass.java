@@ -18,10 +18,26 @@ import genericUtility.SeleniumUtility;
 import objectRepository.HomePage;
 import objectRepository.LoginPage;
 @Listeners(listnerUtility.ListnerImplementation.class)
+
+/**
+ * 
+ */
 public class BaseClass {
 
-    public  WebDriver driver=null;
-    public static WebDriver sDriver=null;
+	/*
+	 * ಸಮಸ್ಯೆ ಏನೆಂದರೆ driver non-static ಆಗಿದ್ದರಿಂದ TestNG ಪ್ರತಿ class ಗೆ ಹೊಸ BaseClass object ಸೃಷ್ಟಿಸಿ 
+	 * Contact class ನಲ್ಲಿ driver null ಆಗಿತ್ತು; static ಮಾಡಿದ ನಂತರ ಎಲ್ಲಾ classes ಒಂದೇ
+	 *  WebDriver instance share ಮಾಡುತ್ತಿವೆ.
+	 */
+	/**
+	 * If driver is static:
+       All tests share same browser
+    	If one test closes driver → all tests fail
+		Parallel execution ನಲ್ಲಿ problem ಆಗಬಹುದು
+		So static = shared browser for whole suite.
+	 */
+    public  static WebDriver driver; // above Kannada comment Note :static is use when driver.quit or close suite level ,bcz of static key not mensioned multiple driver created so   
+    public static WebDriver sDriver; // dont use static driver.quit is in class level. 
     public PropertiesFileUtility plib = new PropertiesFileUtility();
     public SeleniumUtility sUtil = new SeleniumUtility();
 
@@ -55,7 +71,7 @@ public class BaseClass {
     // ✅ Runs before each test method
     @BeforeMethod
     public void login() throws IOException {
-
+try {
         String URL = plib.togetDataFromPropertiesFile("Url");
         String USERNAME = plib.togetDataFromPropertiesFile("UserName");
         String PASSWORD = plib.togetDataFromPropertiesFile("Password");
@@ -69,7 +85,7 @@ public class BaseClass {
 
         System.out.println("Login done");
 
-        try {
+      
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
             WebElement popupOkBtn = wait.until(
@@ -87,13 +103,14 @@ public class BaseClass {
 
     // ✅ Runs after each test method
     @AfterMethod
-    public void logout() {
+    public void logout()  {
 
         HomePage hp = new HomePage(driver);
         hp.getUserIcon().click();
         hp.getLogoutBtn().click();
 
         System.out.println("Logout done");
+       
     }
 
     // ✅ Runs ONLY ONCE after all execution
