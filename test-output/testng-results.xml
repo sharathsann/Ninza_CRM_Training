@@ -1,17 +1,563 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Report Config]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==toCreateCampaignWithExpectedDateTest]]>
+    </line>
+    <line>
+      <![CDATA[test is executed]]>
+    </line>
+    <line>
+      <![CDATA[readdata executedSSharathTestCampaign]]>
+    </line>
+    <line>
+      <![CDATA[readdata executedSSharathTestCampaign]]>
+    </line>
+    <line>
+      <![CDATA[truetrue]]>
+    </line>
+    <line>
+      <![CDATA[truetrue]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
+    </line>
+    <line>
+      <![CDATA[verified = Contacts]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
+    </line>
+    <line>
+      <![CDATA[verified = Leads]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==OpportunitiesFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==productFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==quoteFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==SalesOrderFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==createUser]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==deleteUser]]>
+    </line>
+    <line>
+      <![CDATA[Sharathsdd User Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==InvoiceOrderDelete]]>
+    </line>
+    <line>
+      <![CDATA[knnada Invoice Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==SalesOrderDelete]]>
+    </line>
+    <line>
+      <![CDATA[knnada Sales-Order Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==PurchaseOrderDelete]]>
+    </line>
+    <line>
+      <![CDATA[knnada Purchase-Order Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==QuoteDelete]]>
+    </line>
+    <line>
+      <![CDATA[Knnada Quote Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==productDelete]]>
+    </line>
+    <line>
+      <![CDATA[Selenium Product Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==OpportunitiesDelete]]>
+    </line>
+    <line>
+      <![CDATA[JobSearch Opportunity Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==deleteLeads]]>
+    </line>
+    <line>
+      <![CDATA[Sharath Lead Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==deleteContact]]>
+    </line>
+    <line>
+      <![CDATA[SanuUU Contact Successfully Deleted]]>
+    </line>
+    <line>
+      <![CDATA[==execution Stearted ==campaignDelete]]>
+    </line>
+    <line>
+      <![CDATA[SSharathTestCampaign Campaign Successfully Deleted]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-02-22T02:27:48 IST" name="Default suite" finished-at="2026-02-22T02:27:57 IST" duration-ms="8513">
+  <suite started-at="2026-02-23T23:59:21 IST" name="Suite" finished-at="2026-02-24T00:10:44 IST" duration-ms="682383">
     <groups>
+      <group name="deleteAdminUser">
+        <method signature="AdminConsoleTest.deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89]" name="deleteUser" class="adminConsole.AdminConsoleTest"/>
+      </group> <!-- deleteAdminUser -->
+      <group name="AdminConsoleTest">
+        <method signature="AdminConsoleTest.createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89]" name="createUser" class="adminConsole.AdminConsoleTest"/>
+      </group> <!-- AdminConsoleTest -->
+      <group name="Products">
+        <method signature="ProductsTest.productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339]" name="productFillDetails" class="products.ProductsTest"/>
+      </group> <!-- Products -->
+      <group name="deleteLeads">
+        <method signature="LeadsCreation.deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e]" name="deleteLeads" class="Leads.LeadsCreation"/>
+      </group> <!-- deleteLeads -->
+      <group name="Invoice">
+        <method signature="InvoiceTest.PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa]" name="PurchaseOrderFillDetails" class="Invoice.InvoiceTest"/>
+      </group> <!-- Invoice -->
+      <group name="SalesOrderDelete">
+        <method signature="SalesOrderTest.SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c]" name="SalesOrderDelete" class="salesOrder.SalesOrderTest"/>
+      </group> <!-- SalesOrderDelete -->
+      <group name="QuoteDelete">
+        <method signature="QuotesTest.QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889]" name="QuoteDelete" class="quotes.QuotesTest"/>
+      </group> <!-- QuoteDelete -->
+      <group name="Leads">
+        <method signature="LeadsCreation.fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e]" name="fillCreateContactDetails" class="Leads.LeadsCreation"/>
+      </group> <!-- Leads -->
+      <group name="Quotes">
+        <method signature="QuotesTest.quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889]" name="quoteFillDetails" class="quotes.QuotesTest"/>
+      </group> <!-- Quotes -->
+      <group name="Opportunities">
+        <method signature="OpportunitiesTest.OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f]" name="OpportunitiesFillDetails" class="opportunities.OpportunitiesTest"/>
+      </group> <!-- Opportunities -->
+      <group name="OpportunitiesDelete">
+        <method signature="OpportunitiesTest.OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f]" name="OpportunitiesDelete" class="opportunities.OpportunitiesTest"/>
+      </group> <!-- OpportunitiesDelete -->
+      <group name="Contact">
+        <method signature="ContactCreation.fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" name="fillCreateContactDetails" class="Contacts.ContactCreation"/>
+      </group> <!-- Contact -->
+      <group name="Campaign">
+        <method signature="CampaignTest.toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@762ef0ea]" name="toCreateCampaignWithExpectedDateTest" class="Campaign.CampaignTest"/>
+      </group> <!-- Campaign -->
+      <group name="deleteContact">
+        <method signature="ContactCreation.deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5]" name="deleteContact" class="Contacts.ContactCreation"/>
+      </group> <!-- deleteContact -->
+      <group name="InvoiceOrderDelete">
+        <method signature="InvoiceTest.InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa]" name="InvoiceOrderDelete" class="Invoice.InvoiceTest"/>
+      </group> <!-- InvoiceOrderDelete -->
+      <group name="PurchaseOrder">
+        <method signature="PurchaseOrderTest.PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056]" name="PurchaseOrderFillDetails" class="purchaseOrder.PurchaseOrderTest"/>
+      </group> <!-- PurchaseOrder -->
+      <group name="PurchaseOrderDelete">
+        <method signature="PurchaseOrderTest.PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056]" name="PurchaseOrderDelete" class="purchaseOrder.PurchaseOrderTest"/>
+      </group> <!-- PurchaseOrderDelete -->
+      <group name="productDelete">
+        <method signature="ProductsTest.productDelete()[pri:16, instance:products.ProductsTest@3c0be339]" name="productDelete" class="products.ProductsTest"/>
+      </group> <!-- productDelete -->
+      <group name="SalesOrder">
+        <method signature="SalesOrderTest.SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c]" name="SalesOrderFillDetails" class="salesOrder.SalesOrderTest"/>
+      </group> <!-- SalesOrder -->
     </groups>
-    <test started-at="2026-02-22T02:27:48 IST" name="Default test" finished-at="2026-02-22T02:27:57 IST" duration-ms="8513">
-      <class name="Testng.TestNg1">
-        <test-method signature="getLowestMobiles()[pri:0, instance:Testng.TestNg1@681a8b4e]" started-at="2026-02-22T02:27:48 IST" name="getLowestMobiles" finished-at="2026-02-22T02:27:57 IST" duration-ms="8462" status="PASS">
+    <test started-at="2026-02-23T23:59:21 IST" name="Test" finished-at="2026-02-24T00:10:44 IST" duration-ms="682383">
+      <class name="adminConsole.AdminConsoleTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:05:31 IST" name="login" finished-at="2026-02-24T00:05:42 IST" duration-ms="11101" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLowestMobiles -->
-      </class> <!-- Testng.TestNg1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+        <test-method signature="createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:05:42 IST" name="createUser" depends-on-groups="Invoice" finished-at="2026-02-24T00:05:48 IST" duration-ms="5882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==createUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:05:48 IST" name="logout" finished-at="2026-02-24T00:05:49 IST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:05:49 IST" name="login" finished-at="2026-02-24T00:06:00 IST" duration-ms="11297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:06:00 IST" name="deleteUser" depends-on-groups="AdminConsoleTest" finished-at="2026-02-24T00:06:14 IST" duration-ms="13548" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==deleteUser]]>
+            </line>
+            <line>
+              <![CDATA[Sharathsdd User Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T00:06:14 IST" name="logout" finished-at="2026-02-24T00:06:15 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- adminConsole.AdminConsoleTest -->
+      <class name="salesOrder.SalesOrderTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:03:11 IST" name="login" finished-at="2026-02-24T00:03:23 IST" duration-ms="11924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:03:23 IST" name="SalesOrderFillDetails" depends-on-groups="PurchaseOrder" finished-at="2026-02-24T00:04:57 IST" duration-ms="94819" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==SalesOrderFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SalesOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:04:57 IST" name="logout" finished-at="2026-02-24T00:04:59 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:06:41 IST" name="login" finished-at="2026-02-24T00:06:52 IST" duration-ms="11135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:06:52 IST" name="SalesOrderDelete" depends-on-groups="InvoiceOrderDelete" finished-at="2026-02-24T00:07:11 IST" duration-ms="19362" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==SalesOrderDelete]]>
+            </line>
+            <line>
+              <![CDATA[knnada Sales-Order Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SalesOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T00:07:11 IST" name="logout" finished-at="2026-02-24T00:07:11 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- salesOrder.SalesOrderTest -->
+      <class name="Invoice.InvoiceTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:04:59 IST" name="login" finished-at="2026-02-24T00:05:10 IST" duration-ms="11137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:05:10 IST" name="PurchaseOrderFillDetails" depends-on-groups="SalesOrder" finished-at="2026-02-24T00:05:31 IST" duration-ms="20914" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:05:31 IST" name="logout" finished-at="2026-02-24T00:05:31 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:06:15 IST" name="login" finished-at="2026-02-24T00:06:27 IST" duration-ms="11672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:06:27 IST" name="InvoiceOrderDelete" depends-on-groups="deleteAdminUser" finished-at="2026-02-24T00:06:41 IST" duration-ms="13417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==InvoiceOrderDelete]]>
+            </line>
+            <line>
+              <![CDATA[knnada Invoice Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvoiceOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T00:06:41 IST" name="logout" finished-at="2026-02-24T00:06:41 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Invoice.InvoiceTest -->
+      <class name="Contacts.ContactCreation">
+        <test-method is-config="true" signature="login()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-23T23:59:48 IST" name="login" finished-at="2026-02-23T23:59:59 IST" duration-ms="11147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-23T23:59:59 IST" name="fillCreateContactDetails" depends-on-groups="Campaign" finished-at="2026-02-24T00:00:17 IST" duration-ms="17853" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
+            </line>
+            <line>
+              <![CDATA[verified = Contacts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillCreateContactDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T00:00:17 IST" name="logout" finished-at="2026-02-24T00:00:18 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T00:09:44 IST" name="login" finished-at="2026-02-24T00:09:57 IST" duration-ms="12698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T00:09:57 IST" name="deleteContact" depends-on-groups="deleteLeads" finished-at="2026-02-24T00:10:08 IST" duration-ms="11286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==deleteContact]]>
+            </line>
+            <line>
+              <![CDATA[SanuUU Contact Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T00:10:08 IST" name="logout" finished-at="2026-02-24T00:10:10 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Contacts.ContactCreation -->
+      <class name="Leads.LeadsCreation">
+        <test-method is-config="true" signature="login()[pri:0, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:00:18 IST" name="login" finished-at="2026-02-24T00:00:29 IST" duration-ms="11234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:00:29 IST" name="fillCreateContactDetails" depends-on-groups="Contact" finished-at="2026-02-24T00:00:58 IST" duration-ms="28875" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
+            </line>
+            <line>
+              <![CDATA[verified = Leads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillCreateContactDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:00:58 IST" name="logout" finished-at="2026-02-24T00:00:59 IST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:09:17 IST" name="login" finished-at="2026-02-24T00:09:30 IST" duration-ms="12340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:09:30 IST" name="deleteLeads" depends-on-groups="OpportunitiesDelete" finished-at="2026-02-24T00:09:41 IST" duration-ms="11316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==deleteLeads]]>
+            </line>
+            <line>
+              <![CDATA[Sharath Lead Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T00:09:41 IST" name="logout" finished-at="2026-02-24T00:09:44 IST" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Leads.LeadsCreation -->
+      <class name="purchaseOrder.PurchaseOrderTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:02:30 IST" name="login" finished-at="2026-02-24T00:02:41 IST" duration-ms="11253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:02:41 IST" name="PurchaseOrderFillDetails" depends-on-groups="Quotes" finished-at="2026-02-24T00:03:10 IST" duration-ms="29091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:03:10 IST" name="logout" finished-at="2026-02-24T00:03:11 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:07:11 IST" name="login" finished-at="2026-02-24T00:07:23 IST" duration-ms="11059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:07:23 IST" name="PurchaseOrderDelete" depends-on-groups="SalesOrderDelete" finished-at="2026-02-24T00:07:42 IST" duration-ms="19467" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==PurchaseOrderDelete]]>
+            </line>
+            <line>
+              <![CDATA[knnada Purchase-Order Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T00:07:42 IST" name="logout" finished-at="2026-02-24T00:07:42 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- purchaseOrder.PurchaseOrderTest -->
+      <class name="quotes.QuotesTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:01:57 IST" name="login" finished-at="2026-02-24T00:02:08 IST" duration-ms="11448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:02:08 IST" name="quoteFillDetails" depends-on-groups="Products" finished-at="2026-02-24T00:02:29 IST" duration-ms="20932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==quoteFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quoteFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:02:29 IST" name="logout" finished-at="2026-02-24T00:02:30 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:07:42 IST" name="login" finished-at="2026-02-24T00:07:54 IST" duration-ms="11380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:07:54 IST" name="QuoteDelete" depends-on-groups="PurchaseOrderDelete" finished-at="2026-02-24T00:08:13 IST" duration-ms="19477" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==QuoteDelete]]>
+            </line>
+            <line>
+              <![CDATA[Knnada Quote Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuoteDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T00:08:13 IST" name="logout" finished-at="2026-02-24T00:08:15 IST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- quotes.QuotesTest -->
+      <class name="products.ProductsTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:01:31 IST" name="login" finished-at="2026-02-24T00:01:42 IST" duration-ms="11282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:01:42 IST" name="productFillDetails" depends-on-groups="Opportunities" finished-at="2026-02-24T00:01:56 IST" duration-ms="13183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==productFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:01:56 IST" name="logout" finished-at="2026-02-24T00:01:57 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:08:15 IST" name="login" finished-at="2026-02-24T00:08:27 IST" duration-ms="12377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="productDelete()[pri:16, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:08:27 IST" name="productDelete" depends-on-groups="QuoteDelete" finished-at="2026-02-24T00:08:38 IST" duration-ms="10609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==productDelete]]>
+            </line>
+            <line>
+              <![CDATA[Selenium Product Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T00:08:38 IST" name="logout" finished-at="2026-02-24T00:08:40 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- products.ProductsTest -->
+      <class name="DeleteCamapaignModule.DeteleCampaignTc002">
+        <test-method is-config="true" signature="login()[pri:0, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c]" started-at="2026-02-24T00:10:10 IST" name="login" finished-at="2026-02-24T00:10:23 IST" duration-ms="12595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="campaignDelete()[pri:20, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c]" started-at="2026-02-24T00:10:23 IST" name="campaignDelete" depends-on-groups="deleteContact" finished-at="2026-02-24T00:10:42 IST" duration-ms="19462" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==campaignDelete]]>
+            </line>
+            <line>
+              <![CDATA[SSharathTestCampaign Campaign Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- campaignDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c]" started-at="2026-02-24T00:10:42 IST" name="logout" finished-at="2026-02-24T00:10:44 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- DeleteCamapaignModule.DeteleCampaignTc002 -->
+      <class name="opportunities.OpportunitiesTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:00:59 IST" name="login" finished-at="2026-02-24T00:01:10 IST" duration-ms="11267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:01:10 IST" name="OpportunitiesFillDetails" depends-on-groups="Leads" finished-at="2026-02-24T00:01:30 IST" duration-ms="19861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==OpportunitiesFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:01:30 IST" name="logout" finished-at="2026-02-24T00:01:31 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:08:40 IST" name="login" finished-at="2026-02-24T00:08:52 IST" duration-ms="12095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:08:52 IST" name="OpportunitiesDelete" depends-on-groups="productDelete" finished-at="2026-02-24T00:09:11 IST" duration-ms="19480" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==OpportunitiesDelete]]>
+            </line>
+            <line>
+              <![CDATA[JobSearch Opportunity Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T00:09:11 IST" name="logout" finished-at="2026-02-24T00:09:17 IST" duration-ms="5948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- opportunities.OpportunitiesTest -->
+      <class name="Campaign.CampaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-23T23:59:20 IST" name="beforeSuite" finished-at="2026-02-23T23:59:21 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-23T23:59:22 IST" name="login" finished-at="2026-02-23T23:59:33 IST" duration-ms="11651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-23T23:59:33 IST" name="toCreateCampaignWithExpectedDateTest" finished-at="2026-02-23T23:59:47 IST" duration-ms="13565" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==toCreateCampaignWithExpectedDateTest]]>
+            </line>
+            <line>
+              <![CDATA[test is executed]]>
+            </line>
+            <line>
+              <![CDATA[readdata executedSSharathTestCampaign]]>
+            </line>
+            <line>
+              <![CDATA[readdata executedSSharathTestCampaign]]>
+            </line>
+            <line>
+              <![CDATA[truetrue]]>
+            </line>
+            <line>
+              <![CDATA[truetrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithExpectedDateTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-23T23:59:47 IST" name="logout" finished-at="2026-02-23T23:59:48 IST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-24T00:10:44 IST" name="afterSuite" finished-at="2026-02-24T00:10:44 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Campaign.CampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

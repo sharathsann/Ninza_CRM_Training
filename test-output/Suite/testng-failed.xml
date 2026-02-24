@@ -3,42 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="products.ProductsTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="logout"/>
-          <include name="productDelete"/>
-          <include name="beforeSuite"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- products.ProductsTest -->
-      <class name="Leads.LeadsCreation">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="logout"/>
-          <include name="beforeSuite"/>
-          <include name="login"/>
-          <include name="deleteLeads"/>
-        </methods>
-      </class> <!-- Leads.LeadsCreation -->
-      <class name="opportunities.OpportunitiesTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="logout"/>
-          <include name="OpportunitiesDelete"/>
-          <include name="beforeSuite"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- opportunities.OpportunitiesTest -->
-      <class name="purchaseOrder.PurchaseOrderTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="PurchaseOrderDelete"/>
-          <include name="logout"/>
-          <include name="beforeSuite"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- purchaseOrder.PurchaseOrderTest -->
       <class name="quotes.QuotesTest">
         <methods>
           <include name="afterSuite"/>
@@ -46,21 +10,73 @@
           <include name="beforeSuite"/>
           <include name="login"/>
           <include name="QuoteDelete"/>
+          <include name="quoteFillDetails"/>
         </methods>
       </class> <!-- quotes.QuotesTest -->
       <class name="DeleteCamapaignModule.DeteleCampaignTc002">
         <methods>
           <include name="afterSuite"/>
           <include name="logout"/>
+          <include name="campaignDelete"/>
           <include name="beforeSuite"/>
           <include name="login"/>
-          <include name="deleteCampaign"/>
         </methods>
       </class> <!-- DeleteCamapaignModule.DeteleCampaignTc002 -->
+      <class name="products.ProductsTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="productDelete"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="productFillDetails"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- products.ProductsTest -->
+      <class name="adminConsole.AdminConsoleTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="createUser"/>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- adminConsole.AdminConsoleTest -->
+      <class name="Invoice.InvoiceTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="InvoiceOrderDelete"/>
+          <include name="logout"/>
+          <include name="PurchaseOrderFillDetails"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Invoice.InvoiceTest -->
+      <class name="opportunities.OpportunitiesTest">
+        <methods>
+          <include name="OpportunitiesFillDetails"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="OpportunitiesDelete"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- opportunities.OpportunitiesTest -->
+      <class name="Leads.LeadsCreation">
+        <methods>
+          <include name="fillCreateContactDetails"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="deleteLeads"/>
+        </methods>
+      </class> <!-- Leads.LeadsCreation -->
       <class name="salesOrder.SalesOrderTest">
         <methods>
           <include name="SalesOrderDelete"/>
           <include name="afterSuite"/>
+          <include name="SalesOrderFillDetails"/>
           <include name="logout"/>
           <include name="beforeSuite"/>
           <include name="login"/>
@@ -72,9 +88,20 @@
           <include name="afterSuite"/>
           <include name="logout"/>
           <include name="beforeSuite"/>
+          <include name="fillCreateContactDetails"/>
           <include name="login"/>
         </methods>
       </class> <!-- Contacts.ContactCreation -->
+      <class name="purchaseOrder.PurchaseOrderTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="PurchaseOrderDelete"/>
+          <include name="logout"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="PurchaseOrderFillDetails"/>
+        </methods>
+      </class> <!-- purchaseOrder.PurchaseOrderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

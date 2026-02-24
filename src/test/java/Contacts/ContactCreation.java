@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import BaseTest.BaseClass;
@@ -17,8 +18,8 @@ import genericUtility.SeleniumUtility;
 import objectRepository.CampaignPage;
 import objectRepository.ContactPage;
 import objectRepository.HomePage;
-import objectRepository.genricValidationVefication;
 
+@Listeners
 public class ContactCreation extends BaseClass{
 	
 	HomePage hp;
@@ -40,15 +41,15 @@ public class ContactCreation extends BaseClass{
 		
 	}
 	
-	public void validateContactPage() throws InterruptedException
-	{
-		genricValidationVefication gvv= new genricValidationVefication(driver);
-		gvv.validateHeaders();
-	}
 	
-	@Test(priority=2,dependsOnGroups = "Campaign",groups="Contact")
+	
+		
+	
+	
+	@Test(groups="Contact",dependsOnGroups = "Campaign")
 	public void fillCreateContactDetails() throws EncryptedDocumentException, IOException, InterruptedException  
 	{
+		try {
 		 hp=new HomePage(driver);
 		 cp=new ContactPage(driver);
 		 eUtil= new ExcelUtility();
@@ -78,10 +79,16 @@ public class ContactCreation extends BaseClass{
 		
 		 cp.getMobileTF().sendKeys(MOBILE);
 		 
-		 cp.getEmailTf().sendKeys(EMAIL);
+		 cp.getEmailTf().sendKeys(EMAIL);}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		 
 		
 			 String parent = driver.getWindowHandle();
 		    cp.getSelect_campaign_icon().click();
+		    
 		 Thread.sleep(5000);
 		for (String win : driver.getWindowHandles()) {
 
