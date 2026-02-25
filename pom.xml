@@ -50,7 +50,7 @@
  
   </dependencies>
   
-   <!-- ✅ Build Plugins (Moved Outside Profile) -->
+   <!-- ✅ Build Plugins (Moved=Outside=Profile) -->
     <build>
         <plugins>
 
