@@ -29,7 +29,7 @@ public class HomePage {
 	@FindBy(xpath="(//div[@class='dropdown'])/div[3]")//(xpath="//div[@class='dropdown-item logout']")
 	private WebElement logoutBtn;
 	
-	@FindBy(xpath="//tr[td[text()='BharathTestCampaign']]//a[@class='delete']")
+	@FindBy(xpath="//tr[td[text()='SDSharathTestCampaign']]//a[@class='delete']")
 	private WebElement deleteCampaignBtn;
 	
 	@FindBy(xpath="//div[@id='deleteProductModal']//input[@value='Delete']")
