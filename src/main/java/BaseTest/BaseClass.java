@@ -75,7 +75,7 @@ public class BaseClass {
         	if ("true".equalsIgnoreCase(headless)) {
         	    options.addArguments("--headless=new");
         	    options.addArguments("--disable-gpu");
-        	    options.addArguments("--window-size=1920,1080");
+        	    options.addArguments("--window-size=2560,1440");
         	    options.addArguments("--no-sandbox");
         	    options.addArguments("--disable-dev-shm-usage");
         	}
