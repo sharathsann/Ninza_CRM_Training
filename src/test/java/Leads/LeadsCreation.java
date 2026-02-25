@@ -68,7 +68,8 @@ public class LeadsCreation extends BaseClass{
 		 
 		 String verifyContactPage = lp.getValidateLeadsPage().getText();
 		 Reporter.log("verified = "+verifyContactPage,true);
-		 lp.getCreateleadBTN().click();
+		 sUtil.safeClick(driver,  lp.getCreateleadBTN());
+		// lp.getCreateleadBTN().click();
 		 
 		 lp.getLeadName().sendKeys(Lead_Name);
 		
