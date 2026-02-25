@@ -111,8 +111,8 @@ public class ContactCreation extends BaseClass{
 		cp.getSearchField().sendKeys(CAMPAIGNNAME);
 		Thread.sleep(2000);
 		try {
-			sUtil.safeClick(driver, cp.getSelectSearchedCampaignName());
-		//cp.getSelectSearchedCampaignName().click();
+			//sUtil.safeClick(driver, cp.getSelectSearchedCampaignName());
+		cp.getSelectSearchedCampaignName().click();
 		}
 		 catch(Exception e)
 		 {
