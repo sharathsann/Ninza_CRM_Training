@@ -26,7 +26,7 @@ public class HomePage {
 	@FindBy(className="user-icon")
 	private WebElement userIcon;
 	
-	@FindBy(xpath="//div[@class='dropdown-item logout']")
+	@FindBy(xpath="(//div[@class='dropdown'])/div[3]")//(xpath="//div[@class='dropdown-item logout']")
 	private WebElement logoutBtn;
 	
 	@FindBy(xpath="//tr[td[text()='BharathTestCampaign']]//a[@class='delete']")
