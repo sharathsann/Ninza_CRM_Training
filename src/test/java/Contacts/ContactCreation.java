@@ -65,8 +65,8 @@ public class ContactCreation extends BaseClass{
 		 sUtil.safeClick(driver,  hp.getContacts_Btn_topicon());
 		 String verifyContactPage = cp.getValidateContactPage().getText();
 		 Reporter.log("verified = "+verifyContactPage,true);
-		 //sUtil.safeClick(driver,  cp.getCreateContactBtn());
-		 sUtil.safeClickWithRetry(driver,  cp.getCreateContactBtn());
+		 sUtil.safeClick(driver,  cp.getCreateContactBtn());
+		 //sUtil.safeClickWithRetry(driver,  cp.getCreateContactBtn());
 		// cp.getCreateContactBtn().click();
 		 
 		 cp.getOrgTF().sendKeys(ORGANIZATION);
