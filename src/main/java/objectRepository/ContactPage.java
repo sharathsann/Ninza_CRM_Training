@@ -52,7 +52,7 @@ public class ContactPage
 	@FindBy(name="email")
 	private WebElement emailTf;
 	
-	@FindBy(xpath="//button[@type='button']/*[local-name()='svg']")
+	@FindBy(xpath="(//button[@type='button'])[2]")//(xpath="//button[@type='button']/*[local-name()='svg']")
 	private WebElement select_campaign_icon;
 	
 	@FindBy(xpath="//button[.='Create Contact']")
