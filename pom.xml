@@ -7,8 +7,8 @@
   <!-- ✅ Global UTF-8 Fix (IMPORTANT) -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
   
   <dependencies>
@@ -46,7 +46,13 @@
     <version>5.1.2</version>
     <scope>compile</scope>
 </dependency>
-
+<!-- Source: https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.3.3</version>
+    <scope>compile</scope>
+</dependency>
  
   </dependencies>
   
