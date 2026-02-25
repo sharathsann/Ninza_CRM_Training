@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.HashMap;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -111,7 +112,7 @@ try {
         lp.getSigninBtn().click();
 
         System.out.println("Login done");
-
+        driver.manage().window().setSize(new Dimension(1920, 1080));
       
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
