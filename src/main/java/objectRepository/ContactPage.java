@@ -15,7 +15,7 @@ public class ContactPage
 	@FindBy(xpath="//h2[.='Contacts']")
 	private WebElement validateContactPage;
 	
-	@FindBy(xpath="//button[@class='btn btn-info']")
+	@FindBy(xpath="//button[.//span[text()='Create Contact']]")
 	private WebElement createContactBtn;
 	
 	@FindBy(xpath = "//select[@class='form-control']")
