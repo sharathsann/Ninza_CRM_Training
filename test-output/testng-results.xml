@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="0" failed="1" skipped="19">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Report Config]]>
@@ -11,993 +11,555 @@
       <![CDATA[test is executed]]>
     </line>
     <line>
-      <![CDATA[readdata executedSSharathTestCampaign]]>
+      <![CDATA[readdata executedSDSharathTestCampaig]]>
+    </line>
+    <line>
+      <![CDATA[readdata executedSDSharathTestCampaig]]>
+    </line>
+    <line>
+      <![CDATA[truetrue]]>
+    </line>
+    <line>
+      <![CDATA[truetrue]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==fillCreateContactDetails]]>
+      <![CDATA[verified = Contacts]]>
+    </line>
+    <line>
+      <![CDATA[verified contact btn top icon = Contacts]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==fillCreateContactDetails]]>
+      <![CDATA[verified = Leads]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==OpportunitiesFillDetails]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==OpportunitiesFillDetails]]>
-    </line>
-    <line>
       <![CDATA[==execution Stearted ==productFillDetails]]>
-    </line>
-    <line>
-      <![CDATA[==execution Skipped ==productFillDetails]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==quoteFillDetails]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==quoteFillDetails]]>
-    </line>
-    <line>
       <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
-    </line>
-    <line>
-      <![CDATA[==execution Skipped ==PurchaseOrderFillDetails]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==SalesOrderFillDetails]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==SalesOrderFillDetails]]>
-    </line>
-    <line>
       <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
-    </line>
-    <line>
-      <![CDATA[==execution Skipped ==PurchaseOrderFillDetails]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==createUser]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==createUser]]>
-    </line>
-    <line>
       <![CDATA[==execution Stearted ==deleteUser]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==deleteUser]]>
+      <![CDATA[Sharathsdd User Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==InvoiceOrderDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==InvoiceOrderDelete]]>
+      <![CDATA[knnada Invoice Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==SalesOrderDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==SalesOrderDelete]]>
+      <![CDATA[knnada Sales-Order Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==PurchaseOrderDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==PurchaseOrderDelete]]>
+      <![CDATA[knnada Purchase-Order Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==QuoteDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==QuoteDelete]]>
+      <![CDATA[Knnada Quote Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==productDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==productDelete]]>
+      <![CDATA[Selenium Product Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==OpportunitiesDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==OpportunitiesDelete]]>
+      <![CDATA[JobSearch Opportunity Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==deleteLeads]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==deleteLeads]]>
+      <![CDATA[Sharath Lead Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==deleteContact]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==deleteContact]]>
+      <![CDATA[SanuUU Contact Successfully Deleted]]>
     </line>
     <line>
       <![CDATA[==execution Stearted ==campaignDelete]]>
     </line>
     <line>
-      <![CDATA[==execution Skipped ==campaignDelete]]>
+      <![CDATA[SDSharathTestCampaig Campaign Successfully Deleted]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-24T17:57:04 IST" name="Suite" finished-at="2026-02-24T17:57:15 IST" duration-ms="11380">
+  <suite started-at="2026-02-26T01:18:21 IST" name="Suite" finished-at="2026-02-26T01:29:33 IST" duration-ms="671720">
     <groups>
       <group name="deleteAdminUser">
-        <method signature="AdminConsoleTest.deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89]" name="deleteUser" class="adminConsole.AdminConsoleTest"/>
+        <method signature="AdminConsoleTest.deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@609cd4d8]" name="deleteUser" class="adminConsole.AdminConsoleTest"/>
       </group> <!-- deleteAdminUser -->
       <group name="AdminConsoleTest">
-        <method signature="AdminConsoleTest.createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89]" name="createUser" class="adminConsole.AdminConsoleTest"/>
+        <method signature="AdminConsoleTest.createUser()[pri:10, instance:adminConsole.AdminConsoleTest@609cd4d8]" name="createUser" class="adminConsole.AdminConsoleTest"/>
       </group> <!-- AdminConsoleTest -->
       <group name="Products">
-        <method signature="ProductsTest.productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339]" name="productFillDetails" class="products.ProductsTest"/>
+        <method signature="ProductsTest.productFillDetails()[pri:5, instance:products.ProductsTest@c0c2f8d]" name="productFillDetails" class="products.ProductsTest"/>
       </group> <!-- Products -->
       <group name="deleteLeads">
-        <method signature="LeadsCreation.deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e]" name="deleteLeads" class="Leads.LeadsCreation"/>
+        <method signature="LeadsCreation.deleteLeads()[pri:18, instance:Leads.LeadsCreation@63475ace]" name="deleteLeads" class="Leads.LeadsCreation"/>
       </group> <!-- deleteLeads -->
       <group name="Invoice">
-        <method signature="InvoiceTest.PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa]" name="PurchaseOrderFillDetails" class="Invoice.InvoiceTest"/>
+        <method signature="InvoiceTest.PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@bccb269]" name="PurchaseOrderFillDetails" class="Invoice.InvoiceTest"/>
       </group> <!-- Invoice -->
       <group name="SalesOrderDelete">
-        <method signature="SalesOrderTest.SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c]" name="SalesOrderDelete" class="salesOrder.SalesOrderTest"/>
+        <method signature="SalesOrderTest.SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@66d18979]" name="SalesOrderDelete" class="salesOrder.SalesOrderTest"/>
       </group> <!-- SalesOrderDelete -->
       <group name="QuoteDelete">
-        <method signature="QuotesTest.QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889]" name="QuoteDelete" class="quotes.QuotesTest"/>
+        <method signature="QuotesTest.QuoteDelete()[pri:15, instance:quotes.QuotesTest@305b7c14]" name="QuoteDelete" class="quotes.QuotesTest"/>
       </group> <!-- QuoteDelete -->
       <group name="Leads">
-        <method signature="LeadsCreation.fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e]" name="fillCreateContactDetails" class="Leads.LeadsCreation"/>
+        <method signature="LeadsCreation.fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@63475ace]" name="fillCreateContactDetails" class="Leads.LeadsCreation"/>
       </group> <!-- Leads -->
       <group name="Quotes">
-        <method signature="QuotesTest.quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889]" name="quoteFillDetails" class="quotes.QuotesTest"/>
+        <method signature="QuotesTest.quoteFillDetails()[pri:6, instance:quotes.QuotesTest@305b7c14]" name="quoteFillDetails" class="quotes.QuotesTest"/>
       </group> <!-- Quotes -->
       <group name="Opportunities">
-        <method signature="OpportunitiesTest.OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f]" name="OpportunitiesFillDetails" class="opportunities.OpportunitiesTest"/>
+        <method signature="OpportunitiesTest.OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@4988d8b8]" name="OpportunitiesFillDetails" class="opportunities.OpportunitiesTest"/>
       </group> <!-- Opportunities -->
       <group name="OpportunitiesDelete">
-        <method signature="OpportunitiesTest.OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f]" name="OpportunitiesDelete" class="opportunities.OpportunitiesTest"/>
+        <method signature="OpportunitiesTest.OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@4988d8b8]" name="OpportunitiesDelete" class="opportunities.OpportunitiesTest"/>
       </group> <!-- OpportunitiesDelete -->
       <group name="Contact">
-        <method signature="ContactCreation.fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" name="fillCreateContactDetails" class="Contacts.ContactCreation"/>
+        <method signature="ContactCreation.fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@2de23121]" name="fillCreateContactDetails" class="Contacts.ContactCreation"/>
       </group> <!-- Contact -->
       <group name="Campaign">
-        <method signature="CampaignTest.toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@762ef0ea]" name="toCreateCampaignWithExpectedDateTest" class="Campaign.CampaignTest"/>
+        <method signature="CampaignTest.toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@3d34d211]" name="toCreateCampaignWithExpectedDateTest" class="Campaign.CampaignTest"/>
       </group> <!-- Campaign -->
       <group name="deleteContact">
-        <method signature="ContactCreation.deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5]" name="deleteContact" class="Contacts.ContactCreation"/>
+        <method signature="ContactCreation.deleteContact()[pri:19, instance:Contacts.ContactCreation@2de23121]" name="deleteContact" class="Contacts.ContactCreation"/>
       </group> <!-- deleteContact -->
       <group name="InvoiceOrderDelete">
-        <method signature="InvoiceTest.InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa]" name="InvoiceOrderDelete" class="Invoice.InvoiceTest"/>
+        <method signature="InvoiceTest.InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@bccb269]" name="InvoiceOrderDelete" class="Invoice.InvoiceTest"/>
       </group> <!-- InvoiceOrderDelete -->
       <group name="PurchaseOrder">
-        <method signature="PurchaseOrderTest.PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056]" name="PurchaseOrderFillDetails" class="purchaseOrder.PurchaseOrderTest"/>
+        <method signature="PurchaseOrderTest.PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" name="PurchaseOrderFillDetails" class="purchaseOrder.PurchaseOrderTest"/>
       </group> <!-- PurchaseOrder -->
       <group name="PurchaseOrderDelete">
-        <method signature="PurchaseOrderTest.PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056]" name="PurchaseOrderDelete" class="purchaseOrder.PurchaseOrderTest"/>
+        <method signature="PurchaseOrderTest.PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" name="PurchaseOrderDelete" class="purchaseOrder.PurchaseOrderTest"/>
       </group> <!-- PurchaseOrderDelete -->
       <group name="productDelete">
-        <method signature="ProductsTest.productDelete()[pri:16, instance:products.ProductsTest@3c0be339]" name="productDelete" class="products.ProductsTest"/>
+        <method signature="ProductsTest.productDelete()[pri:16, instance:products.ProductsTest@c0c2f8d]" name="productDelete" class="products.ProductsTest"/>
       </group> <!-- productDelete -->
       <group name="SalesOrder">
-        <method signature="SalesOrderTest.SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c]" name="SalesOrderFillDetails" class="salesOrder.SalesOrderTest"/>
+        <method signature="SalesOrderTest.SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@66d18979]" name="SalesOrderFillDetails" class="salesOrder.SalesOrderTest"/>
       </group> <!-- SalesOrder -->
     </groups>
-    <test started-at="2026-02-24T17:57:04 IST" name="Test" finished-at="2026-02-24T17:57:15 IST" duration-ms="11380">
+    <test started-at="2026-02-26T01:18:21 IST" name="Test" finished-at="2026-02-26T01:29:33 IST" duration-ms="671720">
       <class name="adminConsole.AdminConsoleTest">
-        <test-method signature="createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T17:57:15 IST" name="createUser" depends-on-groups="Invoice" finished-at="2026-02-24T17:57:15 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method AdminConsoleTest.createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89] depends on not successfully finished methods in group "Invoice"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method AdminConsoleTest.createUser()[pri:10, instance:adminConsole.AdminConsoleTest@2898ac89] depends on not successfully finished methods in group "Invoice"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method is-config="true" signature="login()[pri:0, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:24:27 IST" name="login" finished-at="2026-02-26T01:24:39 IST" duration-ms="12059" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==createUser]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==deleteUser]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89]" started-at="2026-02-24T17:57:15 IST" name="deleteUser" depends-on-groups="AdminConsoleTest" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method AdminConsoleTest.deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89] depends on not successfully finished methods in group "AdminConsoleTest"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method AdminConsoleTest.deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@2898ac89] depends on not successfully finished methods in group "AdminConsoleTest"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- login -->
+        <test-method signature="createUser()[pri:10, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:24:39 IST" name="createUser" depends-on-groups="Invoice" finished-at="2026-02-26T01:24:45 IST" duration-ms="5848" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==deleteUser]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==InvoiceOrderDelete]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- adminConsole.AdminConsoleTest -->
-      <class name="salesOrder.SalesOrderTest">
-        <test-method signature="SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T17:57:15 IST" name="SalesOrderFillDetails" depends-on-groups="PurchaseOrder" finished-at="2026-02-24T17:57:15 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method SalesOrderTest.SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c] depends on not successfully finished methods in group "PurchaseOrder"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SalesOrderTest.SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@d21a74c] depends on not successfully finished methods in group "PurchaseOrder"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==SalesOrderFillDetails]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SalesOrderFillDetails -->
-        <test-method signature="SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c]" started-at="2026-02-24T17:57:15 IST" name="SalesOrderDelete" depends-on-groups="InvoiceOrderDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method SalesOrderTest.SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c] depends on not successfully finished methods in group "InvoiceOrderDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SalesOrderTest.SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@d21a74c] depends on not successfully finished methods in group "InvoiceOrderDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==SalesOrderDelete]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==PurchaseOrderDelete]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SalesOrderDelete -->
-      </class> <!-- salesOrder.SalesOrderTest -->
-      <class name="Invoice.InvoiceTest">
-        <test-method signature="PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T17:57:15 IST" name="PurchaseOrderFillDetails" depends-on-groups="SalesOrder" finished-at="2026-02-24T17:57:15 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method InvoiceTest.PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa] depends on not successfully finished methods in group "SalesOrder"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method InvoiceTest.PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@6e509ffa] depends on not successfully finished methods in group "SalesOrder"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==PurchaseOrderFillDetails]]>
-            </line>
             <line>
               <![CDATA[==execution Stearted ==createUser]]>
             </line>
           </reporter-output>
-        </test-method> <!-- PurchaseOrderFillDetails -->
-        <test-method signature="InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa]" started-at="2026-02-24T17:57:15 IST" name="InvoiceOrderDelete" depends-on-groups="deleteAdminUser" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method InvoiceTest.InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa] depends on not successfully finished methods in group "deleteAdminUser"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method InvoiceTest.InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@6e509ffa] depends on not successfully finished methods in group "deleteAdminUser"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:24:45 IST" name="logout" finished-at="2026-02-26T01:24:46 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:24:46 IST" name="login" finished-at="2026-02-26T01:24:58 IST" duration-ms="12310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteUser()[pri:11, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:24:58 IST" name="deleteUser" depends-on-groups="AdminConsoleTest" finished-at="2026-02-26T01:25:12 IST" duration-ms="13468" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[==execution Skipped ==InvoiceOrderDelete]]>
+              <![CDATA[==execution Stearted ==deleteUser]]>
             </line>
             <line>
-              <![CDATA[==execution Stearted ==SalesOrderDelete]]>
+              <![CDATA[Sharathsdd User Successfully Deleted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- InvoiceOrderDelete -->
-      </class> <!-- Invoice.InvoiceTest -->
-      <class name="Contacts.ContactCreation">
-        <test-method signature="fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T17:57:15 IST" name="fillCreateContactDetails" depends-on-groups="Campaign" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ContactCreation.fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5] depends on not successfully finished methods in group "Campaign"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ContactCreation.fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@5f8edcc5] depends on not successfully finished methods in group "Campaign"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:adminConsole.AdminConsoleTest@609cd4d8]" started-at="2026-02-26T01:25:12 IST" name="logout" finished-at="2026-02-26T01:25:13 IST" duration-ms="1005" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==fillCreateContactDetails]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- fillCreateContactDetails -->
-        <test-method signature="deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5]" started-at="2026-02-24T17:57:15 IST" name="deleteContact" depends-on-groups="deleteLeads" finished-at="2026-02-24T17:57:15 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ContactCreation.deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5] depends on not successfully finished methods in group "deleteLeads"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ContactCreation.deleteContact()[pri:19, instance:Contacts.ContactCreation@5f8edcc5] depends on not successfully finished methods in group "deleteLeads"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- logout -->
+      </class> <!-- adminConsole.AdminConsoleTest -->
+      <class name="salesOrder.SalesOrderTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:22:05 IST" name="login" finished-at="2026-02-26T01:22:17 IST" duration-ms="11385" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==deleteContact]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==campaignDelete]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- deleteContact -->
-      </class> <!-- Contacts.ContactCreation -->
-      <class name="Leads.LeadsCreation">
-        <test-method signature="fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T17:57:15 IST" name="fillCreateContactDetails" depends-on-groups="Contact" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method LeadsCreation.fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e] depends on not successfully finished methods in group "Contact"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method LeadsCreation.fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@7b02881e] depends on not successfully finished methods in group "Contact"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- login -->
+        <test-method signature="SalesOrderFillDetails()[pri:8, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:22:17 IST" name="SalesOrderFillDetails" depends-on-groups="PurchaseOrder" finished-at="2026-02-26T01:23:52 IST" duration-ms="95260" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==fillCreateContactDetails]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==OpportunitiesFillDetails]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- fillCreateContactDetails -->
-        <test-method signature="deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e]" started-at="2026-02-24T17:57:15 IST" name="deleteLeads" depends-on-groups="OpportunitiesDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method LeadsCreation.deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e] depends on not successfully finished methods in group "OpportunitiesDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method LeadsCreation.deleteLeads()[pri:18, instance:Leads.LeadsCreation@7b02881e] depends on not successfully finished methods in group "OpportunitiesDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==deleteLeads]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==deleteContact]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteLeads -->
-      </class> <!-- Leads.LeadsCreation -->
-      <class name="purchaseOrder.PurchaseOrderTest">
-        <test-method signature="PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T17:57:15 IST" name="PurchaseOrderFillDetails" depends-on-groups="Quotes" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method PurchaseOrderTest.PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056] depends on not successfully finished methods in group "Quotes"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method PurchaseOrderTest.PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@7a675056] depends on not successfully finished methods in group "Quotes"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==PurchaseOrderFillDetails]]>
-            </line>
             <line>
               <![CDATA[==execution Stearted ==SalesOrderFillDetails]]>
             </line>
           </reporter-output>
-        </test-method> <!-- PurchaseOrderFillDetails -->
-        <test-method signature="PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056]" started-at="2026-02-24T17:57:15 IST" name="PurchaseOrderDelete" depends-on-groups="SalesOrderDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method PurchaseOrderTest.PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056] depends on not successfully finished methods in group "SalesOrderDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method PurchaseOrderTest.PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@7a675056] depends on not successfully finished methods in group "SalesOrderDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- SalesOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:23:52 IST" name="logout" finished-at="2026-02-26T01:23:54 IST" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:25:39 IST" name="login" finished-at="2026-02-26T01:25:50 IST" duration-ms="11058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SalesOrderDelete()[pri:13, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:25:50 IST" name="SalesOrderDelete" depends-on-groups="InvoiceOrderDelete" finished-at="2026-02-26T01:26:09 IST" duration-ms="19304" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[==execution Skipped ==PurchaseOrderDelete]]>
+              <![CDATA[==execution Stearted ==SalesOrderDelete]]>
             </line>
             <line>
-              <![CDATA[==execution Stearted ==QuoteDelete]]>
+              <![CDATA[knnada Sales-Order Successfully Deleted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- PurchaseOrderDelete -->
-      </class> <!-- purchaseOrder.PurchaseOrderTest -->
-      <class name="quotes.QuotesTest">
-        <test-method signature="quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T17:57:15 IST" name="quoteFillDetails" depends-on-groups="Products" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method QuotesTest.quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889] depends on not successfully finished methods in group "Products"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method QuotesTest.quoteFillDetails()[pri:6, instance:quotes.QuotesTest@15ca7889] depends on not successfully finished methods in group "Products"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- SalesOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:salesOrder.SalesOrderTest@66d18979]" started-at="2026-02-26T01:26:09 IST" name="logout" finished-at="2026-02-26T01:26:10 IST" duration-ms="477" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==quoteFillDetails]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- salesOrder.SalesOrderTest -->
+      <class name="Invoice.InvoiceTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:23:54 IST" name="login" finished-at="2026-02-26T01:24:06 IST" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderFillDetails()[pri:9, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:24:06 IST" name="PurchaseOrderFillDetails" depends-on-groups="SalesOrder" finished-at="2026-02-26T01:24:27 IST" duration-ms="20513" status="PASS">
+          <reporter-output>
             <line>
               <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
             </line>
           </reporter-output>
-        </test-method> <!-- quoteFillDetails -->
-        <test-method signature="QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889]" started-at="2026-02-24T17:57:15 IST" name="QuoteDelete" depends-on-groups="PurchaseOrderDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method QuotesTest.QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889] depends on not successfully finished methods in group "PurchaseOrderDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method QuotesTest.QuoteDelete()[pri:15, instance:quotes.QuotesTest@15ca7889] depends on not successfully finished methods in group "PurchaseOrderDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- PurchaseOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:24:27 IST" name="logout" finished-at="2026-02-26T01:24:27 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:25:13 IST" name="login" finished-at="2026-02-26T01:25:25 IST" duration-ms="12397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="InvoiceOrderDelete()[pri:12, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:25:25 IST" name="InvoiceOrderDelete" depends-on-groups="deleteAdminUser" finished-at="2026-02-26T01:25:39 IST" duration-ms="13352" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[==execution Skipped ==QuoteDelete]]>
+              <![CDATA[==execution Stearted ==InvoiceOrderDelete]]>
             </line>
             <line>
-              <![CDATA[==execution Stearted ==productDelete]]>
+              <![CDATA[knnada Invoice Successfully Deleted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- QuoteDelete -->
-      </class> <!-- quotes.QuotesTest -->
-      <class name="products.ProductsTest">
-        <test-method signature="productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T17:57:15 IST" name="productFillDetails" depends-on-groups="Opportunities" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ProductsTest.productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339] depends on not successfully finished methods in group "Opportunities"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ProductsTest.productFillDetails()[pri:5, instance:products.ProductsTest@3c0be339] depends on not successfully finished methods in group "Opportunities"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- InvoiceOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Invoice.InvoiceTest@bccb269]" started-at="2026-02-26T01:25:39 IST" name="logout" finished-at="2026-02-26T01:25:39 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Invoice.InvoiceTest -->
+      <class name="Contacts.ContactCreation">
+        <test-method is-config="true" signature="login()[pri:0, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:18:40 IST" name="login" finished-at="2026-02-26T01:18:52 IST" duration-ms="11255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fillCreateContactDetails()[pri:0, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:18:52 IST" name="fillCreateContactDetails" depends-on-groups="Campaign" finished-at="2026-02-26T01:19:11 IST" duration-ms="18972" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[==execution Skipped ==productFillDetails]]>
+              <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
             </line>
+            <line>
+              <![CDATA[verified = Contacts]]>
+            </line>
+            <line>
+              <![CDATA[verified contact btn top icon = Contacts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillCreateContactDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:19:11 IST" name="logout" finished-at="2026-02-26T01:19:12 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:28:36 IST" name="login" finished-at="2026-02-26T01:28:48 IST" duration-ms="11595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteContact()[pri:19, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:28:48 IST" name="deleteContact" depends-on-groups="deleteLeads" finished-at="2026-02-26T01:28:59 IST" duration-ms="11257" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==deleteContact]]>
+            </line>
+            <line>
+              <![CDATA[SanuUU Contact Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Contacts.ContactCreation@2de23121]" started-at="2026-02-26T01:28:59 IST" name="logout" finished-at="2026-02-26T01:29:01 IST" duration-ms="1933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Contacts.ContactCreation -->
+      <class name="Leads.LeadsCreation">
+        <test-method is-config="true" signature="login()[pri:0, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:19:12 IST" name="login" finished-at="2026-02-26T01:19:23 IST" duration-ms="11268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fillCreateContactDetails()[pri:3, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:19:23 IST" name="fillCreateContactDetails" depends-on-groups="Contact" finished-at="2026-02-26T01:19:52 IST" duration-ms="29078" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==fillCreateContactDetails]]>
+            </line>
+            <line>
+              <![CDATA[verified = Leads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillCreateContactDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:19:52 IST" name="logout" finished-at="2026-02-26T01:19:53 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:28:12 IST" name="login" finished-at="2026-02-26T01:28:23 IST" duration-ms="11428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteLeads()[pri:18, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:28:23 IST" name="deleteLeads" depends-on-groups="OpportunitiesDelete" finished-at="2026-02-26T01:28:34 IST" duration-ms="11280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==deleteLeads]]>
+            </line>
+            <line>
+              <![CDATA[Sharath Lead Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Leads.LeadsCreation@63475ace]" started-at="2026-02-26T01:28:34 IST" name="logout" finished-at="2026-02-26T01:28:36 IST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Leads.LeadsCreation -->
+      <class name="purchaseOrder.PurchaseOrderTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:21:24 IST" name="login" finished-at="2026-02-26T01:21:35 IST" duration-ms="11467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderFillDetails()[pri:7, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:21:35 IST" name="PurchaseOrderFillDetails" depends-on-groups="Quotes" finished-at="2026-02-26T01:22:05 IST" duration-ms="29342" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==PurchaseOrderFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:22:05 IST" name="logout" finished-at="2026-02-26T01:22:05 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:26:10 IST" name="login" finished-at="2026-02-26T01:26:22 IST" duration-ms="11891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="PurchaseOrderDelete()[pri:14, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:26:22 IST" name="PurchaseOrderDelete" depends-on-groups="SalesOrderDelete" finished-at="2026-02-26T01:26:41 IST" duration-ms="19195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==PurchaseOrderDelete]]>
+            </line>
+            <line>
+              <![CDATA[knnada Purchase-Order Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:purchaseOrder.PurchaseOrderTest@6913c1fb]" started-at="2026-02-26T01:26:41 IST" name="logout" finished-at="2026-02-26T01:26:41 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- purchaseOrder.PurchaseOrderTest -->
+      <class name="quotes.QuotesTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:20:51 IST" name="login" finished-at="2026-02-26T01:21:02 IST" duration-ms="11462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="quoteFillDetails()[pri:6, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:21:02 IST" name="quoteFillDetails" depends-on-groups="Products" finished-at="2026-02-26T01:21:23 IST" duration-ms="20856" status="PASS">
+          <reporter-output>
             <line>
               <![CDATA[==execution Stearted ==quoteFillDetails]]>
             </line>
           </reporter-output>
-        </test-method> <!-- productFillDetails -->
-        <test-method signature="productDelete()[pri:16, instance:products.ProductsTest@3c0be339]" started-at="2026-02-24T17:57:15 IST" name="productDelete" depends-on-groups="QuoteDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ProductsTest.productDelete()[pri:16, instance:products.ProductsTest@3c0be339] depends on not successfully finished methods in group "QuoteDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ProductsTest.productDelete()[pri:16, instance:products.ProductsTest@3c0be339] depends on not successfully finished methods in group "QuoteDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- quoteFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:21:23 IST" name="logout" finished-at="2026-02-26T01:21:24 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:26:41 IST" name="login" finished-at="2026-02-26T01:26:55 IST" duration-ms="13619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="QuoteDelete()[pri:15, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:26:55 IST" name="QuoteDelete" depends-on-groups="PurchaseOrderDelete" finished-at="2026-02-26T01:27:15 IST" duration-ms="19480" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[==execution Skipped ==productDelete]]>
+              <![CDATA[==execution Stearted ==QuoteDelete]]>
             </line>
             <line>
-              <![CDATA[==execution Stearted ==OpportunitiesDelete]]>
+              <![CDATA[Knnada Quote Successfully Deleted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- productDelete -->
-      </class> <!-- products.ProductsTest -->
-      <class name="DeleteCamapaignModule.DeteleCampaignTc002">
-        <test-method signature="campaignDelete()[pri:20, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c]" started-at="2026-02-24T17:57:15 IST" name="campaignDelete" depends-on-groups="deleteContact" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method DeteleCampaignTc002.campaignDelete()[pri:20, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c] depends on not successfully finished methods in group "deleteContact"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method DeteleCampaignTc002.campaignDelete()[pri:20, instance:DeleteCamapaignModule.DeteleCampaignTc002@683dbc2c] depends on not successfully finished methods in group "deleteContact"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- QuoteDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:quotes.QuotesTest@305b7c14]" started-at="2026-02-26T01:27:15 IST" name="logout" finished-at="2026-02-26T01:27:16 IST" duration-ms="1155" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==campaignDelete]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- campaignDelete -->
-      </class> <!-- DeleteCamapaignModule.DeteleCampaignTc002 -->
-      <class name="opportunities.OpportunitiesTest">
-        <test-method signature="OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T17:57:15 IST" name="OpportunitiesFillDetails" depends-on-groups="Leads" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method OpportunitiesTest.OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f] depends on not successfully finished methods in group "Leads"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method OpportunitiesTest.OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@1ebd319f] depends on not successfully finished methods in group "Leads"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- logout -->
+      </class> <!-- quotes.QuotesTest -->
+      <class name="products.ProductsTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:20:25 IST" name="login" finished-at="2026-02-26T01:20:36 IST" duration-ms="11075" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==OpportunitiesFillDetails]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="productFillDetails()[pri:5, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:20:36 IST" name="productFillDetails" depends-on-groups="Opportunities" finished-at="2026-02-26T01:20:50 IST" duration-ms="13082" status="PASS">
+          <reporter-output>
             <line>
               <![CDATA[==execution Stearted ==productFillDetails]]>
             </line>
           </reporter-output>
-        </test-method> <!-- OpportunitiesFillDetails -->
-        <test-method signature="OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f]" started-at="2026-02-24T17:57:15 IST" name="OpportunitiesDelete" depends-on-groups="productDelete" finished-at="2026-02-24T17:57:15 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method OpportunitiesTest.OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f] depends on not successfully finished methods in group "productDelete"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method OpportunitiesTest.OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@1ebd319f] depends on not successfully finished methods in group "productDelete"
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-            <line>
-              <![CDATA[==execution Skipped ==OpportunitiesDelete]]>
-            </line>
-            <line>
-              <![CDATA[==execution Stearted ==deleteLeads]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- OpportunitiesDelete -->
-      </class> <!-- opportunities.OpportunitiesTest -->
-      <class name="Campaign.CampaignTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-24T17:57:00 IST" name="beforeSuite" finished-at="2026-02-24T17:57:04 IST" duration-ms="4088" status="PASS">
+        </test-method> <!-- productFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:20:50 IST" name="logout" finished-at="2026-02-26T01:20:51 IST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method signature="toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-24T17:57:04 IST" name="toCreateCampaignWithExpectedDateTest" finished-at="2026-02-24T17:57:15 IST" duration-ms="10894" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss": Invalid Credentials
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1530c886-1002-4ea1-9e6b-80662730789c, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14364, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 1530c886-1002-4ea1-9e6b-80662730789c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss": Invalid Credentials
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1530c886-1002-4ea1-9e6b-80662730789c, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14364, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 1530c886-1002-4ea1-9e6b-80662730789c
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:390)
-at listnerUtility.ListnerImplementation.onTestFailure(ListnerImplementation.java:79)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
-at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toCreateCampaignWithExpectedDateTest -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-24T17:57:04 IST" name="login" finished-at="2026-02-24T17:57:06 IST" duration-ms="2057" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:27:16 IST" name="login" finished-at="2026-02-26T01:27:27 IST" duration-ms="11667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Campaign.CampaignTest@762ef0ea]" started-at="2026-02-24T17:57:15 IST" name="afterSuite" finished-at="2026-02-24T17:57:16 IST" duration-ms="958" status="PASS">
+        <test-method signature="productDelete()[pri:16, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:27:27 IST" name="productDelete" depends-on-groups="QuoteDelete" finished-at="2026-02-26T01:27:38 IST" duration-ms="10431" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==productDelete]]>
+            </line>
+            <line>
+              <![CDATA[Selenium Product Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:products.ProductsTest@c0c2f8d]" started-at="2026-02-26T01:27:38 IST" name="logout" finished-at="2026-02-26T01:27:39 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- products.ProductsTest -->
+      <class name="DeleteCamapaignModule.DeteleCampaignTc002">
+        <test-method is-config="true" signature="login()[pri:0, instance:DeleteCamapaignModule.DeteleCampaignTc002@17f7cd29]" started-at="2026-02-26T01:29:01 IST" name="login" finished-at="2026-02-26T01:29:12 IST" duration-ms="11319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="campaignDelete()[pri:20, instance:DeleteCamapaignModule.DeteleCampaignTc002@17f7cd29]" started-at="2026-02-26T01:29:12 IST" name="campaignDelete" depends-on-groups="deleteContact" finished-at="2026-02-26T01:29:32 IST" duration-ms="19395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==campaignDelete]]>
+            </line>
+            <line>
+              <![CDATA[SDSharathTestCampaig Campaign Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- campaignDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:DeleteCamapaignModule.DeteleCampaignTc002@17f7cd29]" started-at="2026-02-26T01:29:32 IST" name="logout" finished-at="2026-02-26T01:29:33 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- DeleteCamapaignModule.DeteleCampaignTc002 -->
+      <class name="opportunities.OpportunitiesTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:19:53 IST" name="login" finished-at="2026-02-26T01:20:04 IST" duration-ms="11122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OpportunitiesFillDetails()[pri:4, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:20:04 IST" name="OpportunitiesFillDetails" depends-on-groups="Leads" finished-at="2026-02-26T01:20:24 IST" duration-ms="19727" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==OpportunitiesFillDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesFillDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:20:24 IST" name="logout" finished-at="2026-02-26T01:20:25 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:27:39 IST" name="login" finished-at="2026-02-26T01:27:51 IST" duration-ms="11403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OpportunitiesDelete()[pri:17, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:27:51 IST" name="OpportunitiesDelete" depends-on-groups="productDelete" finished-at="2026-02-26T01:28:10 IST" duration-ms="19293" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==OpportunitiesDelete]]>
+            </line>
+            <line>
+              <![CDATA[JobSearch Opportunity Successfully Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:opportunities.OpportunitiesTest@4988d8b8]" started-at="2026-02-26T01:28:10 IST" name="logout" finished-at="2026-02-26T01:28:12 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- opportunities.OpportunitiesTest -->
+      <class name="Campaign.CampaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Campaign.CampaignTest@3d34d211]" started-at="2026-02-26T01:18:19 IST" name="beforeSuite" finished-at="2026-02-26T01:18:21 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Campaign.CampaignTest@3d34d211]" started-at="2026-02-26T01:18:21 IST" name="login" finished-at="2026-02-26T01:18:33 IST" duration-ms="11512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="toCreateCampaignWithExpectedDateTest()[pri:1, instance:Campaign.CampaignTest@3d34d211]" started-at="2026-02-26T01:18:33 IST" name="toCreateCampaignWithExpectedDateTest" finished-at="2026-02-26T01:18:39 IST" duration-ms="6327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==execution Stearted ==toCreateCampaignWithExpectedDateTest]]>
+            </line>
+            <line>
+              <![CDATA[test is executed]]>
+            </line>
+            <line>
+              <![CDATA[readdata executedSDSharathTestCampaig]]>
+            </line>
+            <line>
+              <![CDATA[readdata executedSDSharathTestCampaig]]>
+            </line>
+            <line>
+              <![CDATA[truetrue]]>
+            </line>
+            <line>
+              <![CDATA[truetrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithExpectedDateTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Campaign.CampaignTest@3d34d211]" started-at="2026-02-26T01:18:39 IST" name="logout" finished-at="2026-02-26T01:18:40 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Campaign.CampaignTest@3d34d211]" started-at="2026-02-26T01:29:33 IST" name="afterSuite" finished-at="2026-02-26T01:29:34 IST" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

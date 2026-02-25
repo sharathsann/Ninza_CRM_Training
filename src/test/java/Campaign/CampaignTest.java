@@ -72,6 +72,7 @@ public class CampaignTest extends BaseClass {
 		 */
 		
 		cp.getCampaignNameTF().sendKeys(CAMPAIGNNAME);
+		Thread.sleep(2000);
 		cp.getTargetTF().clear();
 		cp.getTargetTF().sendKeys(TARGETSIZE);
 		cp.getTargetTF().sendKeys(Keys.BACK_SPACE); 

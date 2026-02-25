@@ -91,8 +91,8 @@ public class ContactCreation extends BaseClass{
 		 
 		
 			 String parent = driver.getWindowHandle();
-			 sUtil.safeClick(driver, cp.getSelect_campaign_icon());
-		   // cp.getSelect_campaign_icon().click();
+			// sUtil.safeClick(driver, cp.getSelect_campaign_icon());
+		    cp.getSelect_campaign_icon().click();
 		    
 		 Thread.sleep(5000);
 		for (String win : driver.getWindowHandles()) {
@@ -103,10 +103,8 @@ public class ContactCreation extends BaseClass{
 		    }
 		}
 		Thread.sleep(2000);
-		driver.manage().window().setSize(new Dimension(1920, 1080));
+		  driver.manage().window().setSize(new Dimension(1920, 1080));
 		sUtil.handleDropDownByVisibleText(cp.getSlectDropdown(),"Campaign Name");
-		System.out.println("dropdown slected successfully");
-		Thread.sleep(2000);
 		 String  CAMPAIGNNAME = eUtil.readDatafromExcelFile("Campaign", 0, 1);
 		cp.getSearchField().sendKeys(CAMPAIGNNAME);
 		Thread.sleep(2000);
@@ -168,7 +166,7 @@ public class ContactCreation extends BaseClass{
 		}
 		else
 		{
-			System.out.println("campaign is not deleted");
+			System.out.println("contact is not deleted");
 		}
 		
 	}
