@@ -61,10 +61,13 @@ public class ContactCreation extends BaseClass{
 		 String CONTACTNAME = eUtil.readDatafromExcelFile("ContactsPage", 4, 1);
 		 String MOBILE = eUtil.readDatafromExcelFile("ContactsPage", 5, 1);
 		 String EMAIL = eUtil.readDatafromExcelFile("ContactsPage", 6, 1);
-		 hp.getContacts_Btn_topicon().click();
+		// hp.getContacts_Btn_topicon().click();
+		 sUtil.safeClick(driver,  hp.getContacts_Btn_topicon());
 		 String verifyContactPage = cp.getValidateContactPage().getText();
 		 Reporter.log("verified = "+verifyContactPage,true);
-		 cp.getCreateContactBtn().click();
+		 //sUtil.safeClick(driver,  cp.getCreateContactBtn());
+		 sUtil.safeClickWithRetry(driver,  cp.getCreateContactBtn());
+		// cp.getCreateContactBtn().click();
 		 
 		 cp.getOrgTF().sendKeys(ORGANIZATION);
 		
@@ -87,6 +90,7 @@ public class ContactCreation extends BaseClass{
 		 
 		
 			 String parent = driver.getWindowHandle();
+			// sUtil.safeClick(driver, cp.getSelect_campaign_icon());
 		    cp.getSelect_campaign_icon().click();
 		    
 		 Thread.sleep(5000);
@@ -103,7 +107,8 @@ public class ContactCreation extends BaseClass{
 		cp.getSearchField().sendKeys(CAMPAIGNNAME);
 		Thread.sleep(2000);
 		try {
-		cp.getSelectSearchedCampaignName().click();
+			sUtil.safeClick(driver, cp.getSelectSearchedCampaignName());
+		//cp.getSelectSearchedCampaignName().click();
 		}
 		 catch(Exception e)
 		 {
@@ -112,8 +117,8 @@ public class ContactCreation extends BaseClass{
 		
 		Thread.sleep(2000);
 		driver.switchTo().window(parent);
-
-         cp.getContactcreatesubBTN().click();
+         sUtil.safeClick(driver, cp.getContactcreatesubBTN());
+        // cp.getContactcreatesubBTN().click();
 		 Thread.sleep(5000);
 		 
 		 

@@ -4,9 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.io.FileHandler;
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -298,7 +300,7 @@ public class SeleniumUtility {
 	
 	public void safeClick(WebDriver driver, WebElement element) {
 
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	    wait.until(ExpectedConditions.elementToBeClickable(element));
 
 	    try {
@@ -312,6 +314,82 @@ public class SeleniumUtility {
 	                .executeScript("arguments[0].click();", element);
 	    }
 	}
-	
+	public String safeGetText(WebDriver driver, WebElement element) {
+
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+	    String text = "";
+
+	    try {
+	        wait.until(ExpectedConditions.visibilityOf(element));
+	        text = element.getText();
+	    }
+	    catch (StaleElementReferenceException e) {
+	        text = element.getText();
+	    }
+
+	    return text;
+	}
+	public void hoverAndSafeClick(WebDriver driver, WebElement hoverElement, WebElement clickElement) {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	    // 1️⃣ Hover over the parent element
+	    try {
+	        Actions actions = new Actions(driver);
+	        actions.moveToElement(hoverElement).perform();
+
+	        // JS fallback for headless/Jenkins
+	        ((JavascriptExecutor) driver).executeScript(
+	            "arguments[0].dispatchEvent(new MouseEvent('mouseover', {bubbles:true}));", 
+	            hoverElement
+	        );
+	    } catch (Exception e) {
+	        System.out.println("Hover failed: " + e.getMessage());
+	    }
+
+	    // 2️⃣ Wait for the element to be clickable
+	    wait.until(ExpectedConditions.visibilityOf(clickElement));
+	    wait.until(ExpectedConditions.elementToBeClickable(clickElement));
+
+	    // 3️⃣ Safe click
+	    try {
+	        ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].scrollIntoView({block:'center'});", clickElement);
+	        clickElement.click();
+	    } catch (Exception e) {
+	        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", clickElement);
+	    }
+	    
+	}
+	public void safeClickWithRetry(WebDriver driver, WebElement element) {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	    try {
+	        // 1️⃣ Wait for element to be present in DOM
+	    	 wait.until(ExpectedConditions.visibilityOf(element));
+	    	   wait.until(ExpectedConditions.elementToBeClickable(element));
+	        // 2️⃣ Scroll into view
+	        ((JavascriptExecutor) driver)
+	                .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+
+	        // 3️⃣ Wait until clickable
+	        wait.until(ExpectedConditions.elementToBeClickable(element));
+
+	        // 4️⃣ Retry clicks in case intercepted
+	        int attempts = 0;
+	        while (attempts < 3) {
+	            try {
+	                element.click(); // normal click
+	                break;
+	            } catch (ElementClickInterceptedException e) {
+	                // JS fallback click
+	                ((JavascriptExecutor) driver)
+	                        .executeScript("arguments[0].click();", element);
+	            }
+	            attempts++;
+	        }
+	    } catch (Exception e) {
+	        System.out.println("safeClickWithRetry failed: " + e.getMessage());
+	    }
+	}
 
 }

@@ -57,7 +57,7 @@ public class CampaignTest extends BaseClass {
 		/*
 		 * clikc and create campaign
 		 */
-		try {
+		
 		HomePage hp= new HomePage(driver);
 		CampaignPage cp=new CampaignPage(driver);
 		SeleniumUtility sUtil =new SeleniumUtility();
@@ -91,27 +91,29 @@ public class CampaignTest extends BaseClass {
 		 * click on create campaign
 		 */
 		Reporter.log("true" + true, true);
-		cp.getCreateCampaignSubmitBtn().click();
+		sUtil.safeClick(driver, cp.getCreateCampaignSubmitBtn());
+		//cp.getCreateCampaignSubmitBtn().click();
+		
 		Reporter.log("true"+true);
 		
-		WebElement toastMsg = cp.getToastmsg();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(toastMsg));
 		
+		
+		/*WebElement toastMsg = cp.getToastmsg();
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		wait.until(ExpectedConditions.visibilityOf(toastMsg));
 		//sutil.waitForVisiblityofElement(driver);
 		String msg =toastMsg.getText();
-		Thread.sleep(5000);
-		Thread.sleep(1000);
+		*/
+		 String msg = sUtil.safeGetText(driver, cp.getToastmsg());
+		
+		
 		System.out.println(msg);
 		SoftAssert ast=new SoftAssert();
 		ast.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is  created");
 		ast.assertAll();
-		Thread.sleep(5000);
-		}
-		catch( Exception e)
-		{
-			e.printStackTrace();
-		}
+		
+		
 		
 	}
 }

@@ -27,6 +27,7 @@ import objectRepository.LoginPage;
  * 
  */
 public class BaseClass {
+//Note: jenkins or headless mode don'tuse (maximize) use window size  options.addArguments("--window-size=1920,1080");
 
 	/*
 	 * ಸಮಸ್ಯೆ ಏನೆಂದರೆ driver non-static ಆಗಿದ್ದರಿಂದ TestNG ಪ್ರತಿ class ಗೆ ಹೊಸ BaseClass object ಸೃಷ್ಟಿಸಿ 
@@ -71,6 +72,13 @@ public class BaseClass {
         }
         else if (BROWSER.equalsIgnoreCase("Chrome")) {
         	ChromeOptions options = new ChromeOptions();
+        	if ("true".equalsIgnoreCase(headless)) {
+        	    options.addArguments("--headless=new");
+        	    options.addArguments("--disable-gpu");
+        	    options.addArguments("--window-size=1920,1080");
+        	    options.addArguments("--no-sandbox");
+        	    options.addArguments("--disable-dev-shm-usage");
+        	}
         	HashMap<String, Object> prefs = new HashMap<>();
             prefs.put("profile.password_manager_leak_detection", false);
             prefs.put("credentials_enable_service", false);
@@ -83,7 +91,7 @@ public class BaseClass {
 
         System.out.println("Launching browser = " + BROWSER);
         sDriver=driver;  //listner purpouse
-        sUtil.maximizeWindow(driver);
+       // sUtil.maximizeWindow(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
    
@@ -125,8 +133,13 @@ try {
     public void logout()  {
 
         HomePage hp = new HomePage(driver);
-        hp.getUserIcon().click();
-        hp.getLogoutBtn().click();
+        SeleniumUtility sUtil=new SeleniumUtility();
+     // hp.getUserIcon().click();
+       // sUtil.safeClick(driver, hp.getUserIcon());
+        //sUtil.mouseHoverAction(driver, hp.getUserIcon());
+       // hp.getLogoutBtn().click();
+       // sUtil.safeClick(driver,  hp.getLogoutBtn());
+        sUtil.hoverAndSafeClick(driver, hp.getUserIcon(), hp.getLogoutBtn());
 
         System.out.println("Logout done");
        
