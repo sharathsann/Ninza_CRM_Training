@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -102,6 +103,7 @@ public class ContactCreation extends BaseClass{
 		    }
 		}
 		Thread.sleep(2000);
+		driver.manage().window().setSize(new Dimension(1920, 1080));
 		sUtil.handleDropDownByVisibleText(cp.getSlectDropdown(),"Campaign Name");
 		 String  CAMPAIGNNAME = eUtil.readDatafromExcelFile("Campaign", 0, 1);
 		cp.getSearchField().sendKeys(CAMPAIGNNAME);
