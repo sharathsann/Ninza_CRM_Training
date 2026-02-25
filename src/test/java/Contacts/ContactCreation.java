@@ -90,8 +90,8 @@ public class ContactCreation extends BaseClass{
 		 
 		
 			 String parent = driver.getWindowHandle();
-			// sUtil.safeClick(driver, cp.getSelect_campaign_icon());
-		    cp.getSelect_campaign_icon().click();
+			 sUtil.safeClick(driver, cp.getSelect_campaign_icon());
+		   // cp.getSelect_campaign_icon().click();
 		    
 		 Thread.sleep(5000);
 		for (String win : driver.getWindowHandles()) {
