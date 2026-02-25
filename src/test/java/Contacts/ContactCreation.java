@@ -105,6 +105,8 @@ public class ContactCreation extends BaseClass{
 		Thread.sleep(2000);
 		driver.manage().window().setSize(new Dimension(1920, 1080));
 		sUtil.handleDropDownByVisibleText(cp.getSlectDropdown(),"Campaign Name");
+		System.out.println("dropdown slected successfully");
+		Thread.sleep(2000);
 		 String  CAMPAIGNNAME = eUtil.readDatafromExcelFile("Campaign", 0, 1);
 		cp.getSearchField().sendKeys(CAMPAIGNNAME);
 		Thread.sleep(2000);
