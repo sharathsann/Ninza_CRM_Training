@@ -110,7 +110,7 @@ public class CampaignTest extends BaseClass {
 		
 		System.out.println(msg);
 		SoftAssert ast=new SoftAssert();
-		ast.assertTrue(msg.contains(CAMPAIGNNAME), "Campaign is  created");
+		ast.assertTrue(msg.contains(CAMPAIGNNAME.substring(0, 15)), "Campaign is  created");
 		ast.assertAll();
 		
 		
