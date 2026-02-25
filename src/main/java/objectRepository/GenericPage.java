@@ -29,18 +29,22 @@ public class GenericPage {
 	 * Note :If Step1 is not same just create own only for Step1
 	 */
 	public void headerModules_selection_campains_to_InvoiceModule(String value) {
-	
-		WebElement emailid = driver.findElement(By.linkText(value));
-		emailid.click();
+	SeleniumUtility sUtil=new SeleniumUtility();
+		WebElement id = driver.findElement(By.linkText(value));
+		sUtil.safeClick(driver, id);
+		//id.click();
 	}
 	
 	/*
 	 * Step2 :Tap on Create option from specific Module
 	 */
 	public void create_option_campains_to_InvoiceModule() {
+		SeleniumUtility sUtil=new SeleniumUtility();
 		
 		WebElement create_button = driver.findElement(By.xpath("//button[@class='btn btn-info']"));
-		create_button.click();
+		//create_button.click();
+		sUtil.safeClick(driver, create_button);
+		
 	}
 	
 	/*
@@ -86,9 +90,10 @@ public void fillDescription() {
 
 
 public void SubmitBtn_SubmitDetails() throws InterruptedException {
-	
+	SeleniumUtility sUtil=new SeleniumUtility();
 	WebElement Final_Submit_Option_Btn = driver.findElement(By.xpath("//button[@type='submit']"));
-	Final_Submit_Option_Btn.click();
+	//Final_Submit_Option_Btn.click();
+	sUtil.safeClick(driver, Final_Submit_Option_Btn);
 	Thread.sleep(6000);
 } 
 
@@ -115,7 +120,8 @@ public void popup_page_DropdownSelection_searchCampaign_Select(int  iconIndex,St
 	 String parent = driver.getWindowHandle();
 	 try {
 		 WebElement taptoSelectcapaign_Option = driver.findElement(By.xpath("(//button[@type='button']/*[local-name()='svg'])[" + iconIndex + "]"));
-			taptoSelectcapaign_Option.click();
+			//taptoSelectcapaign_Option.click();
+		 sUtil.safeClick(driver, taptoSelectcapaign_Option);
 			
 	 }
 	 catch(Exception e) {
@@ -135,7 +141,8 @@ sUtil.handleDropDownByVisibleText(lp.getSlectDropdown(),Select_DropDownbyvisiTex
 lp.getSearchField().sendKeys(value);
 Thread.sleep(1000);
 try {
-lp.getSelectSearchedCampaignName().click();
+//lp.getSelectSearchedCampaignName().click();
+sUtil.safeClick(driver, lp.getSelectSearchedCampaignName());
 }
  catch(Exception e)
  {
@@ -148,11 +155,17 @@ driver.switchTo().window(parent);
 public void genericPage_DleteSteps(String SheetNametofindseachandDeletevalue,int row,int column) throws InterruptedException, EncryptedDocumentException, IOException
 {
 	    HomePage hp=new HomePage(driver);
+	    SeleniumUtility sUtil=new SeleniumUtility();
+	    
+	   WebElement ele = driver.findElement(By.xpath("(//a[@class='delete'])[1]"));
+	    sUtil.safeClick(driver, ele);
 	
-	   driver.findElement(By.xpath("(//a[@class='delete'])[1]")).click();
+	  // driver.findElement(By.xpath("(//a[@class='delete'])[1]")).click();
 	   Thread.sleep(2000);
 	   try {
-	   hp.getDeleteConfirmationPopupBtn().click();
+		   
+		   sUtil.safeClick(driver,  hp.getDeleteConfirmationPopupBtn());
+	  // hp.getDeleteConfirmationPopupBtn().click();
 	   }
 	   catch(Exception e)
 	   {
