@@ -161,7 +161,7 @@ public void genericPage_DleteSteps(String SheetNametofindseachandDeletevalue,int
 	    sUtil.safeClick(driver, ele);
 	
 	  // driver.findElement(By.xpath("(//a[@class='delete'])[1]")).click();
-	   Thread.sleep(2000);
+	   Thread.sleep(1000);
 	   try {
 		   
 		   sUtil.safeClick(driver,  hp.getDeleteConfirmationPopupBtn());
