@@ -68,7 +68,7 @@ public class ContactCreation extends BaseClass{
 		 sUtil.safeClick(driver,  cp.getCreateContactBtn());
 		 //sUtil.safeClickWithRetry(driver,  cp.getCreateContactBtn());
 		// cp.getCreateContactBtn().click();
-		 
+		 Reporter.log("verified contact btn top icon = "+verifyContactPage,true);
 		 cp.getOrgTF().sendKeys(ORGANIZATION);
 		
 		 cp.getTitleTF().sendKeys(TITLE);
